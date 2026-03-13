@@ -1,0 +1,605 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+.section1{
+    width: 100%;
+    height: fit-content;
+    background-color: #d9b695;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}  
+.email{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.fb{
+   display: flex;
+}
+.fb i{
+   color: black;
+   font-size: 20px;
+}
+.solid{
+   display: flex;
+}   
+.gen{
+    width: 100%;
+    height: fit-content;
+    background-color: #0f141d;
+
+
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+.logo{
+   gap: 20px;
+    color: #dbb98f;
+    display: flex;
+}
+.logo i{
+   border: solid #d9b695;
+   border-radius: 50%;
+   padding: 15px;
+   color: black;
+   background-color: #dbb98f; 
+   font-size: 20px;
+}
+.links{
+   gap: 10px;
+   display: flex;
+   flex-direction: row;
+}
+.links a{
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+}
+.min{
+   display: flex;
+   gap: 10px;
+}
+.B{
+   color: #dbb98f;
+   border: solid #dbb98f 1px;
+   border-radius: 30px;
+   background-color: #12161d;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.min i{
+   font-size: 30px;
+   color: #dbb98f;
+   padding-top: 10px;
+}
+.section2{
+    background-image: url(../images/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: crisp-edges;
+    width: 100%;
+    height: 83vh;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: white;
+    
+}
+.image i{
+    margin-top: 10%;
+    
+}
+.head{
+    margin-left: 3%;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    
+}
+.container b{
+    background-color: #dbb98f;
+    border: solid #dbb98f;
+    border-radius: 20px;
+    padding: 10px;
+    color: #333;
+}
+.container p{
+    border: solid #dbb98f;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #dbb98f;
+}
+.section3{
+    background-color: #d9b695;
+    width: 100%;
+    height: 13vh;
+    overflow: hidden;
+    position: relative;
+
+}
+.animation{
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    animation: movement 29s linear infinite;
+    animation-iteration-count: infinite;
+    padding: 25px;
+    font-size: 27px;
+    overflow:auto
+}
+ @keyframes movement{
+0%{
+    transform: translate(100%);
+
+}
+100%{
+    transform: translate(-100%);
+}
+}
+ .section4{
+    background-color: #1a2432;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    
+ }
+ .people {
+    width: 45%;
+    height: 88%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+  .people img{
+    object-fit: cover;
+    height: 100%;
+    width: 150%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: 220px;
+    margin-top: 50px;
+    
+ } 
+ .write{
+    color: white;
+    padding-top: 80px;
+    padding-left: 50px;
+ }
+ h2{
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+    font-weight: 500;
+ }
+ .w1{
+    display: flex;
+ }
+ .w2{
+    display: flex;
+    
+ }
+ .cup{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid  white;
+ }
+ .cup:hover{
+    background-color: orangered;
+    border: solid orangered;
+ }
+ .del{
+    border: solid  white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+ }
+ .del:hover{
+    background-color: orangered;
+    border: solid orangered;
+ }
+ 
+ h4{
+    padding-top: 15px;
+    font-size: 1.5rem;
+ }
+ .pic{
+    padding-top: 10px;
+ }
+ .more{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+ }
+ .use{
+    display: flex;
+    border: solid #d9b695 1px;
+    background-color: #d9b695;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+ }.r{
+    border: solid #d9b695 1px;
+    background-color: #d9b695;
+    border-radius: 50px;
+    padding: 20px;
+    color: black; 
+ }
+ .shape{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    
+
+ }
+ .s{
+    background-color: #d9b695;
+    width: 290px;
+    height: 220px;
+    position: absolute;
+    left: 55%;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+ }
+ p{
+    padding-top: 10px;
+    padding-left: 30px;
+ }
+ .clock{
+    color: white;
+    padding: 15px;
+    background-color:  #1a2432;
+    border: solid;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+
+ }
+ .time{
+    padding-top: 120px;
+ }
+ h4{
+    padding-left: 30px;
+ }
+ .section5{
+   background-color: #12161d;
+   width: 100%;
+   height: 110vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+
+ }
+ .section5 img {
+   width: 500px;
+   padding-top: 90px;
+   font-size: 2rem;
+   font-weight: 200px;
+   
+ }
+ .flavour{
+   color: white;
+   font-size: 1rem;
+   line-height: 1;
+   padding-left: 10px;
+ }
+ .head{
+   width: 500px;
+ }
+ .head h3{
+   color: white;
+   line-height: 1.5;
+   font-size: 2.5rem;
+   font-weight: 100;
+   position: sticky;
+   top: 0;
+   
+
+ }
+ .btn{
+   border: solid #d9b695;
+   border-radius: 30px;
+   padding: 20px;
+   background-color: #dbb98f;
+ }
+ .full{
+   width: 600px;
+ }
+ .cover{
+   display: flex;
+   
+ }
+ .fully{
+   border: solid white 1px;
+   border-left: none;
+   padding: 20px;
+   color: white;
+ }
+ .fullys{
+   border: solid white 1px;
+   border-left: none;
+   padding: 20px;
+   color: white;
+   border-top: none;
+ }
+ .fullyy{
+   border: solid white 1px;
+   border-left: none;
+   padding: 20px;
+   color: white;
+   border-bottom: none;
+ }
+ .fully i{
+   border-radius: 50%;
+   padding: 15px;
+   background-color: #2f353f;
+ }
+ .fully i:hover{
+   background-color: #dbb98f;
+   color: black;
+ }
+ .fullyy i{
+   border-radius: 50%;
+   padding: 15px;
+   background-color: #2f353f;
+ }
+ .fullyy i:hover{
+   background-color: #dbb98f;
+   color: black;
+ }
+ .fullys i{
+   border-radius: 50%;
+   padding: 15px;
+   background-color: #2f353f;
+ }
+ .fullys i:hover{
+   background-color: #dbb98f;
+   color: black;
+ }
+ .book{
+   font-size: 1.5rem;
+ }
+ .section6{
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-image: url(../images/business-owners-couple-coffee-cafe-generative-ai-free-photo.jpeg);
+   background-repeat: no-repeat;
+   /* background: rgba(0, 10, 30, 0.6); */
+   /* opacity: 60%; */
+   color:#ffffff;
+   position: relative;
+   z-index: 4;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 180px;
+   
+
+ }
+ .section6::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 10, 30, 0.6);
+
+ }
+.enters{
+   display: flex;
+
+}
+.coffee{
+   display: flex;
+
+}
+ .watch{
+   display: flex;
+} 
+.watch pl{
+   font-size: 2rem;
+   margin-top: 20px;
+}
+.your{
+   width: 700px;
+}
+.right{
+
+   border: solid #d9b695;
+   border-radius: 30px;
+   padding: 20px;
+   background-color: #dbb98f;
+}
+.nawa{
+   font-size: 30px;
+   padding-left: 50px;
+   display: flex;
+}
+
+.visitors{
+   display: flex;
+   flex-direction: column;
+}
+.cust{
+   display: flex;
+   justify-content: center;
+   margin-top: 180px;
+   border: solid white 1px;
+   justify-content: space-between;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+}
+.books{
+   border-radius: 50%;
+   background-color: #2f353f;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 60px;
+   width: 60px;
+   color: #f0c9a6;
+   margin-right: 30px;
+   margin-top: 20px;
+}
+.leaf i{
+   font-size: 40px;
+}
+.section7{
+   width: 100%;
+   height: 200vh;
+   background-color: #12161d;
+}
+.cont{
+   text-align: center;
+   padding-top: 100px;
+   width: 1010px;
+   padding-left: 20%;
+   
+}
+ .all{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 60px;
+}
+.all button{
+   border-radius: 25px;
+   padding: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border: solid #dbb98f 1px;
+   background-color: #12161d;
+   color: #dbb98f;
+}
+button:hover{
+   background-color: #dbb98f;
+   border: solid #dbb98f;
+   color: black;
+}
+
+
+.sav{
+   display: flex;
+   color: white;
+   padding-left: 30%;
+   font-size: 20px;
+   
+}
+.heads{
+   color: white;
+}
+.imgs{
+   width: 570px;
+   height: 700px;
+   background-color: none;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   justify-content: space-evenly;
+}
+.imgs img{
+   width: 570px;
+   height: 700px;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   
+}
+ .chips{
+   display: flex;
+   color: white;
+   padding-top: 40px;
+   padding-left: 70px;
+
+}
+
+.price{
+   padding-top: 70px;
+   display: flex;
+}
+.crave{
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+   gap: 7px;
+}
+.crave div:nth-child(1){
+   color: white;
+   font-size: 17px;
+}
+.crave div:nth-child(2){
+   color: #d9b695;
+   font-size: 17px;
+   font-weight: 600;
+   font-family: sans-serif;
+}
+.section8{
+   width: 100%;
+   height: 100vh;
+   background-image: url(../images/gla.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   image-rendering: crisp-edges;
+}
+.black{
+   object-fit: cover;
+   display: flex;
+   color: white;
+   padding-top: 500px;
+   justify-content: space-evenly;
+}
+.book p:nth-child(1){
+   color: #dbb98f;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+}
+.book p:nth-child(2){
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 400;
+   letter-spacing: 2px;
+   font-stretch: condensed;
+   transform: scaleY(1.4);
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .fb{
+      display: none;
+  }
+  .solid{
+      font-size: 16px;
+      flex-direction: column;
+  }
+  .solid p:nth-child(1){
+   text-align: center;
+  }
+  
+  
+
+  
+  }
